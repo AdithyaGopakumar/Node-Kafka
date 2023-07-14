@@ -1,0 +1,16 @@
+{
+  "name": "apache-kafka-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-producer" : "node ./producer/index.js",
+    "start-consumer" : "node ./consumer/index.js"
+  },
+  "author": "Adithya Gopakumar",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.7",
+    "kafkajs": "^2.2.4"
+  }
+}
